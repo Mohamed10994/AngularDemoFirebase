@@ -1,0 +1,16 @@
+app
+├───employee
+│        ├───employee.component.ts|.html|.css
+│                   
+│        └───employee-list
+│                   ├───employee-list.component.ts|.html|.css
+│                   
+│
+├───service
+|        └───employee.service.ts
+|
+|____app.module.ts
+|
+|
+└────enviroments
+│        └────enviroments.ts (saved firebase connection details)

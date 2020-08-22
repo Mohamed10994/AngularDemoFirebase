@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularfirebase"
+    }
+  },
+  "defaultProject": "angularfirebase",
+  "cli": {
+    "analytics": false
+  }
 }
