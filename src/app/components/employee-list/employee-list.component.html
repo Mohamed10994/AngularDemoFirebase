@@ -15,7 +15,7 @@
             <td>{{employee.email}}</td> 
             <td>{{employee.mobile}}</td>
             <td>
-                <button class="btn btn-outline-info" (click)="employeeService.editForm(employee)">Edit</button>
+                <button class="btn btn-outline-info" routerLink="/" (click)="employeeService.editForm(employee)">Edit</button>
                 <button class="btn btn-outline-danger" (click)="onDelete(employee.$key)">Delete</button>
             </td>
         </tr>

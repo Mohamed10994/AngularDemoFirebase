@@ -6,6 +6,7 @@ import { AngularFireDatabase, AngularFireList } from 'angularfire2/database'
   providedIn: 'root'
 })
 export class EmployeeService {
+ 
 
   constructor(public fireBase: AngularFireDatabase) { }
   employeeList: AngularFireList<any>;
@@ -47,4 +48,6 @@ export class EmployeeService {
   deleteEmployee($key: string){
     this.employeeList.remove($key);
   }
+
+
 }
